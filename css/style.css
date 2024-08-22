@@ -1,0 +1,223 @@
+body {
+    font-family: "Montserrat" , "Roboto",sans-serif ;
+    color: #434455;
+    background-color: #FFF;
+    block-size: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+img{
+ display: block;
+ width: 100%; 
+ height: auto;
+}
+
+h1,
+h2,
+h3,
+p{
+  margin: auto;
+}
+
+.header{
+   
+}
+
+.conteiner{
+    padding: 0 16px;
+   max-width: 375px;
+   margin: 0 auto;
+
+}
+
+.heder-conteiner{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    gap: 16px;
+}
+
+.main-logo{
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #da9d27;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.header-nav{
+    font-weight: 700;
+font-size: 14px;
+line-height: 1.28571;
+color: #a76e00;
+}
+
+.hero{
+    margin: auto;
+    width: 375px;
+    height: 792px;
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/pexels-cottonbro-mob.jpg);
+}
+
+.search{
+    font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22222;
+    border: 1px solid #fdfdfd;
+    border-radius: 4px;
+    padding: 8px;
+    width: 343px;
+    height: 40px;
+    background: #979797;
+   
+}
+
+.search::placeholder{
+    color: #FFF;
+}
+
+.input-search{
+    position: relative;
+}
+
+.svg-input{
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper-input{
+  padding-top: 64px;
+}
+
+.info{
+    width: 100%;
+    margin-top: 80px;
+    height: 272px;
+}
+
+.organizer{
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 1.26316;
+     color: #f8f1e9;
+}
+
+.protokol{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #979797;
+}
+
+.button{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #04867e;
+    border-radius: 4px;
+    border: 1px solid #fdfdfd;
+    padding: 12px;
+    width: 343px;
+    height: 42px;
+    background: #f8f1e9;
+}
+
+.about-company{
+    margin: auto;
+    width: 375px;
+    background: #fdfdfd;
+}
+
+.expert{
+    display: flex;
+    justify-content: end;
+    gap: 7px;
+}
+
+.img-party{
+    border: 2px solid #f8f1e9;
+    border-radius: 8px;
+    width: auto;
+    height: 100%;
+}
+
+.line{ 
+    border: 2px solid #a76e00;
+    width: 160px;
+    height: 0px;
+    margin-top: 64px;
+}
+
+.its-company{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #a76e00;
+    margin-top: 48px;
+}
+
+.motivation{
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #3e1063;
+    margin-top: 8px;
+}
+
+.chat-button-comp{
+    display: block;
+    border-radius: 4px;
+    padding: 12px 16px;
+    width: 343px;
+    height: 42px;
+    background: #f8f1e9;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #04867e;
+    border: 1px solid #fdfdfd;
+    margin-top: 8px;
+}
+
+.brag{
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.28571;
+color: #3d3c39;
+margin: 16px 8px;
+}
+
+.details-button-comp{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #04867e;
+    border-radius: 4px;
+    border: 1px solid #fdfdfd;
+    padding: 12px;
+    width: 343px;
+    height: 42px;
+    background: #f8f1e9;
+}
+
+.planer{
+    background: #979797;
+}
+
+
+    

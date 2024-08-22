@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CDB</title>
+    <title>CDB-Evente</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -17,12 +19,59 @@
                 <a class="nav-menu" href="">Логін / <span class="register">Зареєструватися</span></a>
             </nav>
             <div class="menu">
-                <svg class="svg-menu" width="26" height="20">
-                    <use href=""></use>
+                <svg class="svg-menu" width="40" height="40">
+                    <use href="./symbol-defs.svg#icon-menu-1"></use>
                 </svg>
             </div>
         </div> 
     </header>
+    <main>
+        <section class="hero">
+            <div class="conteiner"> 
+                <div class="wrapper-input">
+                    <div class="input-search">
+                        <input type="text" class="search" name="search" placeholder="Пошук">
+                      <svg class="svg-input" width="19" height="19">
+                         <use href="./symbol-search.svg#icon-Vector-1"></use>
+                      </svg>
+                    </div>
+                </div>
+              <div class="info">
+                    <h2 class="organizer">#1 Організатор корпоративних заходів</h2>
+                    <p class="protokol">Протокол зустрічей і заходів CBD. Ми є фірмою №1 з корпоративного планування у Вашингтоні для міжнародних урядів, дипломатів і банків.</p>
+             </div>    
+                <button class="button" type="button">Детальніше</button>     
+           </div>
+      </section>
+      <section class="about-company">
+            <div class="conteiner">
+                <div class="expert">
+                    <div class="images"><img class="img-party" src="./images/party.jpg" alt="paty"></div>
+                        <div class="info-company">
+                            <div class="line"></div>
+                        <h3 class="its-company">Про компанію</h3>
+                    </div> 
+              </div>
+                <a class="motivation" href="">Натхнення можна знайти всюди</a>
+                <button class="chat-button-comp" type="button">Чат</button>
+                <p class="brag">CBD Meetings & Events — готове рішення Вашингтона, округ Колумбія до повного планування заходів, організації заходів та маркетингу заходів. CBD є найкращим інтегрованим планувальником зустрічей для міжнародної спільноти. Ми з гордістю обслуговуємо 8 країн на 5 континентах. CBD керує подіями для дипломатів, некомерційних організацій, фондів і асоціацій, корпорацій і окремих осіб.</p>
+                <button class="details-button-comp" type="button">Детальніше</button>
+
+            </div>    
+      </section>
+      <section class="planer">
+        <div class="conteiner">
+           <h3 class="">Протокол заходів і зустрічей</h3>
+           <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+           </ol> 
+        </div>
+      </section>
+        
+    </main>
     
 </body>
 </html>
