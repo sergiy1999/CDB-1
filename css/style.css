@@ -213,11 +213,52 @@ margin: 16px 8px;
     width: 343px;
     height: 42px;
     background: #f8f1e9;
+    margin-bottom: 57px;
 }
 
 .planer{
+    margin: auto;
+    width: 375px;
     background: #979797;
 }
 
+.title-planer{
+    font-weight: 500;
+font-size: 30px;
+line-height: 1.33333;
+color: #fdfdfd;
+padding-top: 48px;
+}
 
+.list-planer{
+padding-bottom: 48px;
+margin-top: 16px;
+}
+   
+.servic-planer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    padding: 10px 16px;
+    width: 343px;
+    height: 60px;
+    background: #f8f1e9;
+    margin-top: 8px;
     
+}
+
+.number-planer{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #a76e00;
+}
+
+.servic-planer{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #a76e00;
+}
