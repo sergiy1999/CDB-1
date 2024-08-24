@@ -262,3 +262,201 @@ font-size: 16px;
 line-height: 1.5;
 color: #a76e00;
 }
+
+.img-banguet{
+ margin-top: 17px;
+}
+
+.box-concept{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.box-design , .flowers {
+    width: 50%;
+}
+
+.details-button-cencept{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #04867e;
+    border-radius: 4px;
+    border: 1px solid #fdfdfd;
+    padding: 12px;
+    width: 343px;
+    height: 42px;
+    background: #f8f1e9;
+    margin-bottom: 48px; 
+    margin-top: 20px;
+}
+
+
+.services{
+    margin: 0 auto;
+    width: 375px;
+    height: 520px;
+    background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(..//images/desegen-servict.jpg);
+}
+
+.title-services{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #fdfdfd;
+    padding-top: 48px;
+}
+
+.box-services{
+    border-radius: 8px;
+padding: 16px;
+width: 316px;
+height: 304px;
+background: #f8f1e9;
+margin: 0 auto;
+margin-top: 16px;
+}
+
+.line-services{
+    border: 2px solid #a76e00;
+width: 284px;
+height: 0px;
+margin-top: 16px;
+}
+
+.services-linc{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #3d3c39;
+    margin-top: 12px;
+}
+
+.retreat-one{
+    margin-left: 12px;
+}
+
+.retreat-two{
+margin-left: 28px;
+}
+
+.retreat-three{
+margin-left: 44px;
+}
+
+.retreat-for{
+    margin-left: 60px; 
+}
+
+.guarantees{
+    padding: 48px 0 ;
+}
+
+.line-guarantees{
+    border: 1px solid #a76e00;
+    width: 343px;
+    height: 0px;
+}
+
+.holidays{
+ text-align: end;
+}
+
+.events{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #a76e00;
+}
+
+.img-monro{
+margin-top: 16px;
+}
+
+.possibility{
+    font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #da9d27;
+margin-top: 16px;
+}
+
+.keys{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #3d3c39; 
+    margin-top: 16px;
+
+}
+
+.button-guarantees{
+    border-radius: 4px;
+padding: 12px;
+width: 343px;
+height: 42px;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.28571;
+color: #04867e;
+border: 1px solid #fdfdfd;
+background: #f8f1e9;
+margin-top: 16px;
+}
+
+.tour{
+    padding: 48px 0;
+    background: #979797;
+}
+
+.name-video{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+font-size: 30px;
+line-height: 1.33333;
+color: #f8f1e9;
+}
+
+.order{
+    border: 1px solid #fdfdfd;
+border-radius: 8px;
+width: 343px;
+height: 340px;
+background: #f8f1e9;
+margin-top: 16px;
+}
+
+.done{
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #3e1063;
+border: none;
+text-align: center;
+margin-top: 16px;
+}
+
+.img-lights{
+    border: 2px solid #f8f1e9;
+border-radius: 8px;
+width: 280px;
+height: 240px;
+margin: 0 auto;
+margin-top: 16px;
+}
+
+.button-tour{
+    border-radius: 4px;
+padding: 12px 16px;
+width: 343px;
+height: 42px;
+background: #f8f1e9;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.28571;
+color: #04867e;
+margin-top: 24px;
+border: 1px solid #fdfdfd;
+}
