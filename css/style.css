@@ -254,6 +254,12 @@ margin-top: 16px;
     font-size: 30px;
     line-height: 1.33333;
     color: #a76e00;
+    flex-basis: 35%;
+}
+.text-planer{
+    text-align: left;
+    display: block;
+    flex-basis: 55%;
 }
 
 .servic-planer{
