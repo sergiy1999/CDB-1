@@ -340,19 +340,19 @@ margin-top: 16px;
 }
 
 .retreat-one{
-    margin-left: 12px;
+    margin-left: 5%;
 }
 
 .retreat-two{
-margin-left: 28px;
+margin-left: 10%;
 }
 
 .retreat-three{
-margin-left: 44px;
+margin-left: 15%;
 }
 
 .retreat-for{
-    margin-left: 60px; 
+    margin-left: 20%; 
 }
 
 .guarantees{
@@ -413,6 +413,8 @@ margin-top: 16px;
 }
 
 .tour{
+    margin: auto;
+    width: 375px;
     padding: 48px 0;
     background: #979797;
 }
@@ -465,4 +467,115 @@ line-height: 1.28571;
 color: #04867e;
 margin-top: 24px;
 border: 1px solid #fdfdfd;
+}
+
+.news{
+    width: 375px;
+    margin: auto;
+    padding: 48px 0;
+}
+
+.name-news{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #a76e00;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.news-emotions{
+ margin-top: 12px;
+}
+
+.news-offset{
+margin-left: 91px;
+}
+
+.calendar{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #3e1063;
+    margin-left: 8px;
+}
+
+.img-news{
+    border-radius: 8px;
+    width: 252px;
+    height: 160px;
+    margin-top: 4px;
+}
+
+.news-inform{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #da9d27;
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+
+.news-buuton{
+border-radius: 4px;
+padding: 12px 16px;
+width: 343px;
+height: 42px;
+background: #f8f1e9;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.28571;
+color: #04867e;
+margin-top: 24px;
+border: 1px solid #fdfdfd;
+}
+
+.footer{
+    padding-top: 24px;
+    margin: auto;
+    width: 375px;
+    background: #16392d;
+}
+
+.footer-button{
+    border: 1px solid #da9d27;
+border-radius: 4px;
+padding: 12px 8px;
+width: 343px;
+height: 42px;
+background: #fdfdfd;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.28571;
+color: #a76e00;
+margin-top: 16px;
+}
+
+.box-footer{
+    display: flex;
+    gap: 25px;
+    margin-top: 16px;
+}
+
+.all-cbd{
+    width: 50%;
+}
+
+.name-cbd{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.28571;
+color: #979797;
+}
+
+.text-cbd{
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #979797;
+margin-top: 4px;
+}
+
+.planing-link{
+   
 }
