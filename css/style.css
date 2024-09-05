@@ -88,6 +88,11 @@ color: #a76e00;
     color: #FFF;
 }
 
+.search:hover,
+.search:focus{
+    background: #f8f1e9;
+}
+
 .input-search{
     position: relative;
 }
@@ -512,7 +517,7 @@ margin-left: 91px;
     line-height: 1.5;
     color: #da9d27;
     margin-top: 12px;
-    margin-left: 8px;
+    margin-left: 9px;
 }
 
 
@@ -532,6 +537,7 @@ border: 1px solid #fdfdfd;
 
 .footer{
     padding-top: 24px;
+    padding-bottom: 12px;
     margin: auto;
     width: 375px;
     background: #16392d;
@@ -553,12 +559,13 @@ margin-top: 16px;
 
 .box-footer{
     display: flex;
-    gap: 25px;
+    gap: 21px;
     margin-top: 16px;
 }
 
 .all-cbd{
     width: 50%;
+   
 }
 
 .name-cbd{
@@ -576,6 +583,77 @@ color: #979797;
 margin-top: 4px;
 }
 
+.planning-list{
+    margin-left: 8px;
+}
+
 .planing-link{
-   
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #979797;
+   margin-top: 7px;
+}
+
+.company-address{
+    display: flex;
+    gap: 21px;
+    margin-top: 16px;
+}
+
+.user-info{
+    width: 50%;
+}
+
+.tel-address{
+    margin-left: 8px;
+}
+
+.address-link{
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #979797;
+margin-top: 12px; 
+}
+
+.tel-company{
+color: #fdfdfd;
+}
+
+.icon-address{
+    display: flex;
+    gap: 16px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.icon-you-tube{
+    fill: #979797;
+
+}
+
+.footer-code{
+    width: 251px;
+    margin-top: 24px;
+}
+
+.nacis-code{
+    font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #979797;
+
+}
+
+.footer-redesign{
+margin-top: 44px;
+text-align: end;
+}
+
+.redesign{
+font-weight: 400;
+font-size: 12px;
+line-height: 1.5;
+color: #979797;
 }
