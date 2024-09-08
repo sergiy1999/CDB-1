@@ -29,10 +29,6 @@ p{
   margin: auto;
 }
 
-.header{
-   
-}
-
 .conteiner{
     padding: 0 16px;
    max-width: 375px;
@@ -91,6 +87,7 @@ color: #a76e00;
 .search:hover,
 .search:focus{
     background: #f8f1e9;
+   
 }
 
 .input-search{
@@ -141,6 +138,11 @@ color: #a76e00;
     background: #f8f1e9;
 }
 
+.button:hover,
+.button:focus{
+    color: #16392d;
+}
+
 .about-company{
     margin: auto;
     width: 375px;
@@ -149,8 +151,9 @@ color: #a76e00;
 
 .expert{
     display: flex;
-    justify-content: end;
-    gap: 7px;
+    justify-content: center;
+    gap: 8px;
+    overflow: hidden;
 }
 
 .img-party{
@@ -158,6 +161,10 @@ color: #a76e00;
     border-radius: 8px;
     width: auto;
     height: 100%;
+}
+
+.info-company{
+margin-right: 8px;
 }
 
 .line{ 
@@ -199,6 +206,11 @@ color: #a76e00;
     margin-top: 8px;
 }
 
+.chat-button-comp:hover,
+.chat-button-comp:focus{
+    color: #16392d;
+}
+
 .brag{
     font-weight: 400;
 font-size: 14px;
@@ -219,6 +231,11 @@ margin: 16px 8px;
     height: 42px;
     background: #f8f1e9;
     margin-bottom: 57px;
+}
+
+.details-button-comp:hover,
+.details-button-comp:focus{
+    color: #16392d;
 }
 
 .planer{
@@ -301,6 +318,11 @@ color: #a76e00;
     background: #f8f1e9;
     margin-bottom: 48px; 
     margin-top: 20px;
+}
+
+.details-button-cencept:focus,
+.details-button-cencept:hover{
+    color: #16392d;
 }
 
 
@@ -417,6 +439,11 @@ background: #f8f1e9;
 margin-top: 16px;
 }
 
+.button-guarantees:hover,
+.button-guarantees:focus{
+    color: #16392d;
+}
+
 .tour{
     margin: auto;
     width: 375px;
@@ -472,6 +499,11 @@ line-height: 1.28571;
 color: #04867e;
 margin-top: 24px;
 border: 1px solid #fdfdfd;
+}
+
+.button-tour:hover,
+.button-tour:focus{
+    color: #16392d;
 }
 
 .news{
@@ -535,6 +567,11 @@ margin-top: 24px;
 border: 1px solid #fdfdfd;
 }
 
+.news-buuton:hover,
+.news-buuton:focus{
+    color: #16392d;
+}
+
 .footer{
     padding-top: 24px;
     padding-bottom: 12px;
@@ -556,6 +593,13 @@ line-height: 1.28571;
 color: #a76e00;
 margin-top: 16px;
 }
+
+.footer-button:hover,
+.footer-button:focus{
+    color: #16392d;
+}
+
+
 
 .box-footer{
     display: flex;
@@ -656,4 +700,64 @@ font-weight: 400;
 font-size: 12px;
 line-height: 1.5;
 color: #979797;
+}
+
+@media screen and (min-width:768px) {
+    
+    .conteiner{
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .heder-conteiner{
+        justify-content: space-between;
+    }
+
+    .hero{
+        height: 446px;
+        width: 100%;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(..//images/pexels-cottonbro-table.jpg);
+    }
+
+    .search{
+        width: 174px;
+        height: 40px;
+        background: none;
+
+    }
+
+    .input-search{
+        justify-content: end;
+        display: flex;
+    }
+
+    .wrapper-input{
+        padding-top: 23px;
+    }
+
+     .info{
+        height: 100%;
+        
+     }
+
+    .organizer{
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 1.14286;
+        color: #f8f1e9;
+    }
+
+    .protokol{
+        line-height: 1.125;
+        font-weight: 700;
+        width: 436px;
+        margin-right: 8px;
+    }
+
+    .button{ 
+    width: 200px;
+    height: 42px;
+    }
+    
 }
