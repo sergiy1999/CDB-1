@@ -715,7 +715,7 @@ color: #979797;
 
     .hero{
         height: 446px;
-        width: 100%;
+        width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(..//images/pexels-cottonbro-table.jpg);
     }
 
@@ -736,8 +736,7 @@ color: #979797;
     }
 
      .info{
-        height: 100%;
-        
+        margin-top: 28px;
      }
 
     .organizer{
@@ -760,4 +759,88 @@ color: #979797;
     height: 42px;
     }
     
+    .button-hero{
+        display: flex;
+        justify-content: end;
+    }
+
+    .about-company{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+
+      .expert{
+        margin-top: 64px;
+        justify-content: space-around;
+      }
+
+    .images{
+        width: 212px;
+        height: 204px;
+        border: 2px solid #f8f1e9;
+        border-radius: 8px;
+
+    }
+
+    .info-company{
+        width: 444px;
+    }
+
+    .line{
+        margin-left: 19px;
+        width: 444px;
+    }
+
+    .its-company{
+        margin-left: 19px;
+        font-size: 40px;
+         line-height: 1.2;
+    }
+
+    .conteiner{
+        position: relative;
+    }
+
+    .motivation{
+        font-family: "Montserrat", sans-serif;
+       position: absolute;
+       bottom: 1px;
+        font-size: 14px;
+        line-height: 1.28571;
+        color: #3e1063;
+     }
+
+    .conteiner-info{
+        display: flex;
+        gap: 50px;
+    }
+
+
+    .chat-button-comp{
+        width: 212px;
+        margin-top: 38px;
+    }
+
+    .brag{
+        margin: 0;
+        width: 444px;
+    }
+
+    .details-button-comp{
+        display: none;
+    }
+
+    .planer{
+        width: 100%;
+    }
+
+    .background-planer{
+        background-image: url(../images/vec\ pic.jpg);
+        width: 430px;
+        height: 320px;
+        position: absolute;
+        bottom: 48px;
+        right: 32px;
+        color: #04867e;
+    }
 }
