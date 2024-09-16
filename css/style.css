@@ -239,6 +239,7 @@ margin: 16px 8px;
 }
 
 .planer{
+    padding: 48px 0;
     margin: auto;
     width: 375px;
     background: #979797;
@@ -249,11 +250,9 @@ margin: 16px 8px;
 font-size: 30px;
 line-height: 1.33333;
 color: #fdfdfd;
-padding-top: 48px;
 }
 
 .list-planer{
-padding-bottom: 48px;
 margin-top: 16px;
 }
    
@@ -831,16 +830,29 @@ color: #979797;
     }
 
     .planer{
-        width: 100%;
+        width: 768px;
+        padding-bottom: 64px;
+        padding-top: 88px;
+        background-image: url(../images/vec_pic.png);
+        background-repeat: no-repeat;
+        background-position: right 0 bottom 48px;
     }
 
-    .background-planer{
-        background-image: url(../images/vec\ pic.jpg);
-        width: 430px;
-        height: 320px;
-        position: absolute;
-        bottom: 48px;
-        right: 32px;
-        color: #04867e;
-    }
+     .title-planer{
+        font-size: 40px;
+        line-height: 1.2;
+     }
+
+     .servic-planer{
+        margin-top: 16px;
+     }
+
+     .concepts{
+        padding: 82px 0 88px 0 ;
+        width: 768px;
+     }
+
+     .its-company{
+        margin: 0;
+     }
 }
