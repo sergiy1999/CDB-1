@@ -5,6 +5,11 @@ body {
     block-size: border-box;
 }
 
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -328,7 +333,6 @@ color: #a76e00;
 .services{
     margin: 0 auto;
     width: 375px;
-    /* height: 520px; */
     background-repeat: no-repeat;
     background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(..//images/desegen-servict.jpg);
 }
@@ -910,7 +914,7 @@ color: #979797;
      }
 
      .services{
-       width: 100%;
+       width: 768px;
        height: 100%;
        padding-top: 80px;
        padding-bottom: 48px;
@@ -972,5 +976,72 @@ color: #979797;
         display: flex;
         justify-content: center;
      }
+
+     .services-linc{
+        font-weight: 500;
+font-size: 24px;
+line-height: 1.33333;
+color: #3d3c39;
+     }
+
+     .retreat-one{
+        margin-left: 0;
+     }
+
+     .retreat-two{
+        margin-left: 0;
+     }
+
+      .managment{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+     .managment::before{
+        content: "";
+        border: 2px solid #a76e00;
+        width: 88px;
+         height: 0px;
+     }
+
+     .retreat-three{
+        margin-left: 0;
+     }
+
+
+     .breakdown{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
      
-}
+      .breakdown::before{
+        content: "";
+        border: 2px solid #a76e00;
+        width: 180px;
+         height: 0px;
+      }
+ 
+      .retreat-three{
+        margin-left: 0;
+      }
+
+      .actions{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+    .actions::before{
+        content: "";
+        border: 2px solid #a76e00;
+        width: 264px;
+         height: 0px;  
+    }    
+    
+    .retreat-for{
+        margin-left: 0;
+    }
+
+ }
