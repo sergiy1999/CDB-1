@@ -299,6 +299,10 @@ color: #a76e00;
  margin-top: 17px;
 }
 
+.conteiner-concepts{
+    margin-left:16px;
+}
+
 .box-concept{
     display: flex;
     gap: 20px;
@@ -333,6 +337,7 @@ color: #a76e00;
 .services{
     margin: 0 auto;
     width: 375px;
+    height: 520px;
     background-repeat: no-repeat;
     background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(..//images/desegen-servict.jpg);
 }
@@ -386,8 +391,28 @@ margin-left: 15%;
     margin-left: 20%; 
 }
 
+.btn-service{
+    display: none;
+}
+
 .guarantees{
     padding: 48px 0 ;
+}
+
+.events{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #a76e00;
+}
+
+.events-emotions{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #a76e00;
 }
 
 .line-guarantees{
@@ -398,14 +423,6 @@ margin-left: 15%;
 
 .holidays{
  text-align: end;
-}
-
-.events{
-    font-family: "Montserrat Alternates", sans-serif;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 1.33333;
-    color: #a76e00;
 }
 
 .img-monro{
@@ -852,6 +869,10 @@ color: #979797;
         margin-top: 16px;
      }
 
+     .icon-planer{
+        transform: rotate(-90deg);
+     }
+
      .conteiner-concepts{
         width: 768px;
         position: relative;
@@ -864,7 +885,6 @@ color: #979797;
      }
 
      .its-company{
-        margin-top: 0;
         margin-left: 32px;
 
      }
@@ -915,12 +935,12 @@ color: #979797;
 
      .services{
        width: 768px;
-       height: 100%;
+       height: 802px;
        padding-top: 80px;
        padding-bottom: 48px;
        background: #979797;
        background-repeat: no-repeat; 
-       background-position: center;
+       background-position: center 154px;
        background-image: url(../images/vec_pic_2-removebg.png);
      }
 
@@ -928,7 +948,7 @@ color: #979797;
         padding: 0;
         font-size: 40px;
         line-height: 1.2;
-        margin-bottom: 32px;
+        margin-bottom: 40px;
      }
  
      .box-services{
@@ -936,7 +956,7 @@ color: #979797;
         flex-direction: column;
         background: none;
         width: 704px;
-        gap: 24px;
+        height: 100%;
         padding: 0;
      }
 
@@ -956,10 +976,13 @@ color: #979797;
 
      .creative-choice{
        margin-left: 100px;
+       margin-top: 24px;
+       margin-bottom: 40px;
      }
 
      .btn-service{
-        border-bottom: 1px solid #3d3c39;
+        display: block;
+        border-bottom: 1px solid #fdfdfd;
         border-radius: 4px;
         padding: 12px 16px;
         width: 200px;
@@ -969,19 +992,15 @@ color: #979797;
         font-size: 16px;
         line-height: 1.125;
         color: #04867e;
-        margin-top: 40px;
-     }
-
-     .box-btn-service{
-        display: flex;
-        justify-content: center;
+        margin: auto;
      }
 
      .services-linc{
         font-weight: 500;
-font-size: 24px;
-line-height: 1.33333;
-color: #3d3c39;
+        font-size: 24px;
+        line-height: 1.33333;
+        color: #3d3c39;
+        margin-top: 16px;
      }
 
      .retreat-one{
@@ -1000,7 +1019,8 @@ color: #3d3c39;
 
      .managment::before{
         content: "";
-        border: 2px solid #a76e00;
+        border-radius: 2px;
+        border: 1px solid #a76e00;
         width: 88px;
          height: 0px;
      }
@@ -1018,7 +1038,8 @@ color: #3d3c39;
      
       .breakdown::before{
         content: "";
-        border: 2px solid #a76e00;
+        border-radius: 2px;
+        border: 1px solid #a76e00;
         width: 180px;
          height: 0px;
       }
@@ -1035,7 +1056,8 @@ color: #3d3c39;
 
     .actions::before{
         content: "";
-        border: 2px solid #a76e00;
+        border-radius: 2px;
+        border: 1px solid #a76e00;
         width: 264px;
          height: 0px;  
     }    
@@ -1044,4 +1066,85 @@ color: #3d3c39;
         margin-left: 0;
     }
 
+    .audio-sound{
+        gap: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: end;
+    }
+
+    .audio-sound::after{
+        content: "";
+        border-radius: 2px;
+        border: 1px solid #a76e00;
+        width: 392px;
+         height: 0px;  
+    }
+
+    .sound-led {
+        gap: 20px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+   .sound-led::after {
+    content: "";
+    border-radius: 2px;
+    border: 1px solid #a76e00;
+    width: 342px;
+    height: 0px;
+   }
+
+   .decor {   
+    gap: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+   }
+
+   .decor::after{
+    content: "";
+    border-radius: 2px;
+    border: 1px solid #a76e00;
+    width: 98px;
+    height: 0px;
+   }
+
+   .fotos-video {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+   }
+
+   .guarantees{
+    padding-top: 80px;
+    padding-bottom: 48px;
+   }
+
+   .events{
+    font-size: 40px;
+    line-height: 1.2;
+   }
+
+   .line-guarantees{
+    display: none;
+   }
+
+   .events-emotions{
+    display: none;
+   }
+
+   .emotions{
+    display: block;
+    text-align: right;
+   }
+   
+   .box-monro{
+    display: flex;
+    flex-direction: column;
+   }
+   .possibility{
+    order: 0;
+   }
  }
