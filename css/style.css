@@ -415,10 +415,25 @@ margin-left: 15%;
     color: #a76e00;
 }
 
+.tere{
+    display: none;
+}
+
+.unforgettable{
+    display: block;
+}
+
 .line-guarantees{
+    display: block;
+    width: 100%;
     border: 1px solid #a76e00;
     width: 343px;
     height: 0px;
+}
+
+.emotions{
+    display: block;
+    text-align: end;
 }
 
 .holidays{
@@ -1123,8 +1138,13 @@ color: #979797;
    }
 
    .events{
-    font-size: 40px;
+    font-size: 42px;
     line-height: 1.2;
+   }
+
+   .tere{
+    display: inline;
+    margin-left: 4px;
    }
 
    .line-guarantees{
@@ -1136,15 +1156,36 @@ color: #979797;
    }
 
    .emotions{
-    display: block;
     text-align: right;
+   }
+
+   .unforgettable{
+    display: inline;
    }
    
    .box-monro{
     display: flex;
     flex-direction: column;
    }
+
+   .img-monro{
+   border: 2px solid #f8f1e9;
+   border-radius: 8px;
+   width: 342px;
+   height: 232px;
+   order: 2;
+   }
+
    .possibility{
     order: 0;
+   }
+
+   .keys{
+    font-size: 14px;
+    line-height: 1.28571; 
+   }
+
+   .text-guarantees{
+    
    }
  }
