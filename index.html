@@ -160,7 +160,7 @@
                <div class="text-guarantees">
                     <p class="keys">Ключ до чудової події — зробити її незабутньою. У CBD ми використовуємо концепцію вашого бренду та особистості, щоб створювати настрій і встановлювати стандарти.
 
-                        Тут НЕМАЄ подій, пов’язаних із розрізанням тортів. Кожен елемент дизайну налаштований на замовлення, і ми НІКОЛИ не ЗАБУВАЄМО дрібних деталей.
+                        <span class="Uneventful">Тут НЕМАЄ подій, пов’язаних із розрізанням тортів. Кожен елемент дизайну налаштований на замовлення, і ми НІКОЛИ не ЗАБУВАЄМО дрібних деталей.</span>
                     </p>
                     <button class="button-guarantees" type="button">Докладніше</button>
                 </div>
@@ -172,31 +172,53 @@
         <h2 class="name-video">Відео-тур</h2>
         <div class="order">
            <p class="done">Перегляд виконаних замовлень</p> 
-           <img class="img-lights" src="./images/flashlights.jpg" alt="flashlights">
+           <picture>
+            <source srcset="./images/expert-img/flashlights-desk-2x.jpg" media="(min-width: 1440px)">
+            <source srcset="./images/expert-img/flashlights-tab-2x.jpg" media="(min-width: 768px)">
+            <source srcset="./images/expert-img/flashlights-mob-2x.jpg" media="(min-width: 378px)">
+            <img class="img-lights" src="./images/flashlights.jpg" alt="flashlights">
+            </picture>
         </div>
         <button class="button-tour" type="button">Ознайомитись</button>
        </div>
       </section>
       <section class="news">
-        <div class="conteiner">
+        <div class="conteiner-news">
             <h2 class="name-news">Останні новини</h2>
-            <div class="news-emotions">
-                <p class="calendar">04 Травня 2019</p>
-                <img class="img-news" src="./images/firework.jpg" alt="firework">
-                <p class="news-inform">Як планується захід</p>
-            </div>
-            <div class="news-emotions news-offset">
-               <p class="calendar">21 Серпня 2019</p>
-               <img class="img-news" src="./images/dishes.jpg" alt="dishes">
-               <p class="news-inform">Інформація для пошуку організатора</p>
-            </div>
-            <div class="news-emotions">
-               <p class="calendar">28 Серпня 2019</p>
-               <img class="img-news" src="./images/fotos.jpg" alt="fotos">
-               <p class="news-inform">Зустрічі та заходи. Брошура</p>
-            </div>
-            <button class="news-buuton" type="button">Ознайомитися</button>
-
+            <div class="box-news">
+                <div class="news-emotions">
+                    <p class="calendar">04 Травня 2019</p>
+                    <picture>
+                        <source srcset="./images/expert-img/firework-desk-2x.jpg" media="(min-width: 1440px)">
+                        <source srcset="./images/expert-img/firework-tab-2x.jpg" media="(min-width: 768px)">
+                        <source srcset="./images/expert-img/firework-mob-2x.jpg" media="(min-width: 378px)">
+                        <img class="img-news" src="./images/firework.jpg" alt="firework">
+                    </picture>
+                    <p class="news-inform">Як планується захід</p>
+                </div>
+                <div class="news-emotions news-offset">
+                    <p class="calendar">21 Серпня 2019</p>
+                    <picture>
+                        <source srcset="./images/expert-img/dishes-desk-2x.jpg" media="(min-width: 1440px)">
+                        <source srcset="./images/expert-img/dishes-tab-2x.jpg" media="(min-width: 768px)">
+                        <source srcset="./images/expert-img/dishes-mob-2x.jpg" media="(min-width: 378px)">
+                        <img class="img-news" src="./images/dishes.jpg" alt="dishes">
+                    </picture>
+                    <p class="news-inform">Інформація для пошуку організатора</p>
+                </div>
+                <div class="news-emotions">
+                    <p class="calendar">28 Серпня 2019</p>
+                    <picture></picture>
+                        <source srcset="./images/expert-img/fotos-desk-2x.jpg" media="(min-width: 1440px)">
+                        <source srcset="./images/expert-imgfotos-tab-2x.jpg" media="(min-width: 768px)">
+                        <source srcset="./images/expert-img/fotos-mob-2x.jpg" media="(min-width: 378px)">
+                        <img class="img-news" src="./images/fotos.jpg" alt="fotos">
+                    </picture>
+                    <p class="news-inform">Зустрічі та заходи. Брошура</p>
+               </div>
+           </div>
+           <button class="news-buuton" type="button">Ознайомитися</button>
+ 
         </div>
       </section>
     </main>
