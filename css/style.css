@@ -1346,7 +1346,17 @@ line-height: 1.125;
 
    .footer{
     width: 768px;
-    padding-top: 22px;
+    padding-top: 40px;
+   }
+
+   .main-logo-footer{
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 1;
+    color: #da9d27;
+    margin-left: 0;
+    margin-right: 0;
    }
 
    .footer-text{
@@ -1369,7 +1379,7 @@ line-height: 1.125;
    }
 
    .all-cbd{
-    margin-top: 51px;
+    margin-top: 54px;
     padding: 0;
     width: 200px;
    }
@@ -1396,14 +1406,14 @@ line-height: 1.125;
     font-size: 14px;
     line-height: 1.28571;
     color: #a76e00;
-    margin-top: 41px;
+    margin-top: 40px;
    }
 
    .position-footer{
     position: absolute;
     display: flex;
     justify-content: end;
-    top: 40px;
+    top: 0;
     right: 32px;
     gap: 20px;
    }
