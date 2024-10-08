@@ -625,6 +625,10 @@ border: 1px solid #fdfdfd;
     background: #16392d;
 }
 
+.footer-text{
+    display: none;
+}
+
 .footer-button{
     border: 1px solid #da9d27;
 border-radius: 4px;
@@ -644,7 +648,9 @@ margin-top: 16px;
     color: #16392d;
 }
 
-
+.btn-user{
+    display: none;
+}
 
 .box-footer{
     display: flex;
@@ -653,8 +659,16 @@ margin-top: 16px;
 }
 
 .all-cbd{
-    width: 50%;
-   
+    padding: 8px;
+    width: 50%;  
+}
+
+.all-planning{
+    padding: 8px;
+}
+
+.team-service{
+    display: none;
 }
 
 .name-cbd{
@@ -740,11 +754,19 @@ margin-top: 44px;
 text-align: end;
 }
 
+.menu-footer{
+    display: none;
+}
+
 .redesign{
 font-weight: 400;
 font-size: 12px;
 line-height: 1.5;
 color: #979797;
+}
+
+.labe-website{
+    display: none;
 }
 
 @media screen and (min-width:768px) {
@@ -1265,6 +1287,7 @@ color: #979797;
    }
 
    .conteiner-news{
+    margin: 0;
     width: 768px;
     padding: 0 0 0 34px;
    }
@@ -1319,6 +1342,136 @@ line-height: 1.125;
     height: 42px;
     background: #fdfdfd;
     margin-top: 20px;
+   }
+
+   .footer{
+    width: 768px;
+    padding-top: 22px;
+   }
+
+   .footer-text{
+    font-family: "Nunito", sans-serif;
+    display: block;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 1.25;
+    color: #da9d27;
+    margin-top: 4px;
+   }
+
+   .footer-button{
+    display: none;
+   }
+
+   .box-footer{
+    display: block;
+    margin: 0;
+   }
+
+   .all-cbd{
+    margin-top: 51px;
+    padding: 0;
+    width: 200px;
+   }
+   
+   .name-cbd{
+    font-size: 16px;
+    line-height: 1.125;
+   }
+
+   .text-cbd{
+    font-size: 14px;
+    line-height: 1.5;
+     }
+
+   .btn-user{
+    display: block;
+    border: 1px solid #da9d27;
+    border-radius: 4px;
+    padding: 12px 8px;
+    width: 200px;
+    height: 42px;
+    background: #fdfdfd;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.28571;
+    color: #a76e00;
+    margin-top: 41px;
+   }
+
+   .position-footer{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    top: 40px;
+    right: 32px;
+    gap: 20px;
+   }
+
+   .all-planning{
+    padding: 0;
+   }
+
+   .planing-link{
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 1.3;
+   }
+
+   .team-service{
+    display: block;
+    }
+
+   .company-address{
+    margin-top: 40px;
+   }
+
+   .address-link{
+    margin-top: 24px;
+   }
+
+   .box-bloc{
+    display: none;
+   }
+
+   .footer-code{
+    position: absolute;
+    right: 32px;
+    bottom: 73px;
+   }
+
+   .footer-redesign{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+   }
+
+   .menu-footer{
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    color: #979797; 
+    margin: 0; 
+   }
+
+   .redesign {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.28571;
+   }
+
+   .information-footer::after{
+    content: "";
+    margin-left: 8px;
+    margin-right: 8px;
+   width: 26px;
+   height: 0;
+   border: 1px solid #979797;
+  }
+
+   .labe-website{
+     display: inline-block;
    }
    
  }
