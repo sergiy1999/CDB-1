@@ -1484,4 +1484,34 @@ line-height: 1.125;
      display: inline-block;
    }
    
- }
+}
+
+@media screen and (min-width:1220px){
+    
+    .conteiner{
+        max-width: 1440px;
+        padding: 0 48px;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .heder-desktop{
+        width: 100%;
+        height: 143px;
+    }
+
+    .name-desktop{
+        font-family: "Nunito", sans-serif;
+        font-weight: 800;
+     font-size: 64px;
+     line-height: 1.25;
+     color: #da9d27;
+     
+    }
+
+    .hero{
+        width: 100%;
+    }
+  }
