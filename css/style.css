@@ -65,6 +65,10 @@ line-height: 1.28571;
 color: #a76e00;
 }
 
+.heder-desktop{
+    display: none;
+}
+
 .hero{
     margin: auto;
     width: 375px;
@@ -1497,9 +1501,16 @@ line-height: 1.125;
         display: none;
     }
 
+    .hero{
+        width: 100%;
+        height: 844px;
+    }
+
     .heder-desktop{
         width: 100%;
         height: 143px;
+        display: flex;
+        padding-top: 16px;
     }
 
     .name-desktop{
@@ -1508,10 +1519,96 @@ line-height: 1.125;
      font-size: 64px;
      line-height: 1.25;
      color: #da9d27;
-     
+     padding-top: 48px;
+     margin: 0;
     }
 
-    .hero{
-        width: 100%;
+    .box-haeder{
+        margin-left: 76px;
     }
+
+    .haeder-concept{
+        display: flex;
+        width: 762px;
+        height: 24px;
+    }
+
+    .svg-haeder{
+        display: flex;
+        gap: 8px;
+    }
+
+    .icon-twiter{
+      fill: #FFF;
+    }
+
+    .location-firm
+    {
+     font-family: "Montserrat", sans-serif;
+     font-weight: 400;
+    font-size: 16px;
+    line-height: 1.125;
+    color: #a76e00;
+    margin-left: 128px;
+    margin-top: 3px;
+    }
+
+    .login-haeder{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.22222;
+        color: #a76e00;
+       display: block;
+       text-align: right;
+    }
+
+    .line-haeder{
+        border: 2px solid #979797;
+        width: 1130px;
+        height: 0px;
+        margin-top: 19px;
+    }
+
+    .about-team{
+        display: flex;
+        gap: 40px;
+        margin-top: 17px;
+    }
+
+    .linc-team{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.22222;
+        color: #a76e00;
+
+    }
+
+    .input-search{
+        position: absolute;
+        right: 48px;
+        top: 96px;
+    }
+
+    .info{
+        width: 900px;
+        height: 316px;
+    }
+
+    .organizer{
+        font-weight: 500;
+        font-size: 68px;
+        line-height: 1.32353;
+        color: #fdfdfd;
+    }
+
+    .protokol{
+        margin: 32 0 0;
+        width: 100%;
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.28571;
+    }
+    
   }
