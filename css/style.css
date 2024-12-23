@@ -1631,6 +1631,10 @@ line-height: 1.125;
         width: 240px;
     }
 
+    .about-company{
+        height: 367px;
+    }
+
     .box-company{
       display: flex;
       justify-content: space-between;
@@ -1658,6 +1662,7 @@ line-height: 1.125;
 
     .company-line-text{
         display: flex;
+        flex-wrap: wrap;
         width: 786px;
         height: 101px;
     }
@@ -1690,6 +1695,8 @@ line-height: 1.125;
         width: 240px;
         height: 42px;
         background: #fdfdfd;
+        margin-left: 544px;
+
     }
 
 
