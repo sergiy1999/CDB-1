@@ -266,6 +266,14 @@ margin: 16px 8px;
     background: #979797;
 }
 
+.title-line-planer{
+    display: none;
+}
+
+.line-planer{
+    display: none;
+}
+
 .title-planer{
     font-weight: 500;
 font-size: 30px;
@@ -298,6 +306,8 @@ margin-top: 16px;
     color: #a76e00;
     flex-basis: 35%;
 }
+
+
 .text-planer{
     text-align: left;
     display: block;
@@ -1755,6 +1765,69 @@ line-height: 1.125;
     font-weight: 400;
     margin-top: 118px;
     margin-bottom: 32px;
+    }
+
+    .planer{
+        width: 100%;
+    }
+
+    .title-line-planer{
+        display: flex;
+        align-items: center;
+    }
+
+    .line-planer{
+        display: block;
+        border: 1px solid #fdfdfd;
+        width: 384px;
+        height: 0px;
+        border-radius: 1px;
+    }
+
+    .title-planer{
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 1.14286;
+        margin-left: 0;
+    }
+
+    .list-planer{
+        display: flex;
+        gap: 20px;
+    }
+
+    .servic-planer{
+        flex-wrap: wrap;
+        gap: 16px;
+        align-items: baseline;
+        justify-content: flex-start;
+        width: 324px;
+        height: 440px;
+        padding: 8px 24px;
+    }
+
+    .number-planer{
+        font-family: "Montserrat", sans-serif;
+        flex-basis: 0;
+        font-size: 28px;
+    }
+
+    .text-planer{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.28571;
+      }
+
+    .link-planer{
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 1.6;
+        color: #3d3c39;
+    }
+
+    .icon-planer{
+      display: none;
     }
 
   }
