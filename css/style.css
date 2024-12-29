@@ -321,8 +321,8 @@ line-height: 1.5;
 color: #a76e00;
 }
 
-.img-banguet{
- margin-top: 17px;
+.list-server-planer{
+    display: none;
 }
 
 .conteiner-concepts{
@@ -330,10 +330,27 @@ color: #a76e00;
     padding: 0 16px 0;
 }
 
+.line-concept{
+    display: none;
+}
+
+.concept-its-company{
+    font-family: "Montserrat Alternates", sans-serif;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.33333;
+    color: #a76e00;
+}
+
 .box-concept{
     display: flex;
     gap: 20px;
     margin-top: 20px;
+}
+
+.img-banguet{
+ margin-top: 17px;
 }
 
 .box-design , .flowers {
@@ -956,7 +973,8 @@ color: #979797;
         margin: 0 auto;
      }
 
-     .its-company{
+     .concept-its-company{
+        margin-top: 0;
         margin-left: 32px;
 
      }
@@ -1715,7 +1733,7 @@ line-height: 1.125;
     }
 
     .its-company{
-        width: 427px;
+        width: 100%;
         font-weight: 500;
         font-size: 56px;
         line-height: 1.14286;
@@ -1768,12 +1786,15 @@ line-height: 1.125;
     }
 
     .planer{
+        padding: 108px 0 113px;
         width: 100%;
+        background-image: url(../images/vec_pic-desktop.png);
     }
 
     .title-line-planer{
         display: flex;
         align-items: center;
+        height: 80px;
     }
 
     .line-planer{
@@ -1794,6 +1815,7 @@ line-height: 1.125;
     .list-planer{
         display: flex;
         gap: 20px;
+        margin-top: 40px;
     }
 
     .servic-planer{
@@ -1804,6 +1826,11 @@ line-height: 1.125;
         width: 324px;
         height: 440px;
         padding: 8px 24px;
+        margin-top: 0;
+    }
+
+    .list-server-planer{
+        display: block;
     }
 
     .number-planer{
@@ -1828,6 +1855,67 @@ line-height: 1.125;
 
     .icon-planer{
       display: none;
+    }
+
+    .concepts{
+        width: 100%;
+        margin: 0;
+    }
+
+    .conteiner-concepts{
+        width: 100%;
+        padding: 0 40px 0;
+    }
+
+    .concept-line-company{
+        display: flex;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .line-concept{
+        display: block;
+        border: 2px solid #a76e00;
+        width: 433px;
+        height: 0px;
+    }
+
+    .concept-its-company{
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 1.14286;
+        color: #a76e00;
+        margin-left: 48px;
+    }
+
+    .box-concept{
+     width: 1124px;
+     margin: auto;
+    }
+
+    .img-design{
+        width: 405px;
+        height: 260px;
+    }
+
+    .img-banguet{
+        width: 720px;
+        height: 360px;
+    }
+
+    .img-flower{
+        width: 405px;
+        height: 260px;
+    }
+
+    .details-button-cencept{
+        border-bottom: 1px solid #3d3c39;
+        border-radius: 4px;
+        padding: 10px 16px;
+        width: 240px;
+        height: 42px;
+        margin-left: 40px;
+        background: #fdfdfd;
     }
 
   }
