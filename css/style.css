@@ -386,6 +386,14 @@ color: #a76e00;
     background-image:  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(..//images/desegen-servict.jpg);
 }
 
+.services-title-line{
+    display: block;
+}
+
+.service-line{
+    display: none;
+}
+
 .title-services{
     font-weight: 500;
     font-size: 30px;
@@ -533,6 +541,14 @@ margin-top: 16px;
     width: 375px;
     padding: 48px 0;
     background: #979797;
+}
+
+.tour-name-line{
+    display: block;
+}
+
+.tour-line{
+    display: none;
 }
 
 .name-video{
@@ -1799,7 +1815,7 @@ line-height: 1.125;
 
     .line-planer{
         display: block;
-        border: 1px solid #fdfdfd;
+        border: 2px solid #fdfdfd;
         width: 384px;
         height: 0px;
         border-radius: 1px;
@@ -1917,5 +1933,147 @@ line-height: 1.125;
         margin-left: 40px;
         background: #fdfdfd;
     }
+
+    .services{
+        background-position: center 100px;
+        padding-top: 100px;
+        height: 100%;
+        width: 100%;
+        background-image: url(../images/vec_pic_2-removebg-desk.png);
+    }
+
+    .services-title-line{
+        display: flex;
+        align-items: center;
+    }
+
+    .title-services{
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 1.14286;
+        margin: 0;
+    }
+
+    .title-line{
+        display: block;
+        border: 2px solid #fdfdfd;
+        width: 913px;
+        height: 0px;
+        margin-left: 40px;
+    }
+    .box-services{
+        gap: 50px;
+        flex-direction: inherit;
+        margin-top: 24px;
+        width: 100%;
+    }
+    .talck-service{
+        width: 652px;
+        height: 256px;  
+    }
+
+    .creative-choice{
+        width: 652px;
+        height: 256px;
+        margin: 0;
+    }
+
+    .services-linc{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.28571;
+    }
+
+    .btn-service{
+        margin-top: 24px;
+        width: 240px;
+        height: 42px;
+
+    }
+
+    .guarantees{
+        padding-top: 100px;
+    }
+
+    .events{
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 1.14286;
+    }
+    
+    .img-monro {
+        width: 670px;
+        height: 420px;
+        margin: 0;
+    }
+
+    .possibility{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.28571;
+        margin-top: 32px;
+    }
+
+    .keys {
+        width: 553px;
+        height: 304px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 1.6;
+        margin-left: 0;
+        margin-top: 32px;
+    }
+
+    .button-guarantees{
+        width: 240px;
+        height: 42px;
+        margin-top: 32px;
+    }
+
+    .tour{
+        padding-top: 108px;
+        width: 100%;
+        background-image: url(../images/background-tour-desk.png);
+    }
+
+    .tour-name-line{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .tour-line{
+        display: block;
+        border: 2px solid #f8f1e9;
+        width: 981px;
+        height: 0px;
+        background: #f8f1e9;
+    }
+
+
+    .name-video{
+        margin: 0;
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 1.14286;
+    }
+
+    .order{
+        width: 1200px;
+        height: 480px;
+        margin-top: 24px;
+    }
+
+    .img-lights{
+        width: 664px;
+        height: 400px;
+    }
+
+    .button-tour{
+        width: 240px;
+        height: 42px;
+        margin-top: 24px;
+    }
+
 
   }
