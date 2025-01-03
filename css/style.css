@@ -617,6 +617,14 @@ border: 1px solid #fdfdfd;
     padding: 48px 0;
 }
 
+.news-line-name{
+    display: block;
+}
+
+.line-news{
+    display: none;
+}
+
 .name-news{
     font-weight: 500;
     font-size: 30px;
@@ -2075,5 +2083,63 @@ line-height: 1.125;
         margin-top: 24px;
     }
 
+    .news{
+        padding: 100px 0 200px;
+        width: 100%;
+    }
 
+     .conteiner-news{
+        width: 100%;
+        padding: 0 40px;
+     }
+
+     .news-line-name{
+        display: flex;
+        align-items: center;
+     }
+
+     .line-news{
+        display: block;
+        border: 2px solid #a76e00;
+        width: 798px;
+        height: 0px;
+     }
+
+     .name-news{
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 1.14286;
+     }
+
+     .box-news{
+        gap: 25px;
+        margin-top: 20px;
+     }
+
+     .calendar{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.22222;
+     }
+
+     .img-news{
+        width: 438px;
+        height: 220px;
+     }
+
+     .news-inform{
+        font-weight: 500;
+        font-size: 28px;
+        line-height: 1.28571;
+     }
+
+     .news-buuton{
+        width: 240px;
+     }
+
+     .footer{
+        width: 100%;
+     }
+
+     
   }
